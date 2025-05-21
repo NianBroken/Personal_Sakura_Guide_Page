@@ -2,7 +2,7 @@
 
 # 个人樱花引导页
 
-<img src="https://blog.nianbroken.top/NianBrokenStorage/FileStorage/7/03.png" alt="主界面" style="zoom:35%;" />
+<img src="./images/01.png" alt="主界面" style="zoom:35%;" />
 
 </div>
 
@@ -11,10 +11,6 @@
 - [https://nianbroken.github.io/Personal_Sakura_Guide_Page/](https://nianbroken.github.io/Personal_Sakura_Guide_Page/)
 
 ---
-
-## 配置修改
-
-收款码：`money_receiving_QR_code` → `index.html`
 
 ## 许可证
 
@@ -31,6 +27,9 @@
 ## 最便宜的 VPN
 
 [https://nianbroken.github.io/Great-Firewall/](https://nianbroken.github.io/Great-Firewall/)
+
+## 性价比最高的 ChatGPT 镜像站
+[Aizex 合租面板](https://aizex.klaio.top/)
 
 ## 其他
 

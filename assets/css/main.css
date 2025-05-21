@@ -31,6 +31,27 @@ body {
 	line-height: 1;
 }
 
+/* 自定义滚动条样式 */
+::-webkit-scrollbar {
+	/* 选择整体滚动条 */
+	width: 0px; /* 设置滚动条的宽度 */
+}
+
+::-webkit-scrollbar-track {
+	/* 选择滚动条背景 */
+	background: #f1f1f1; /* 设置滚动条背景颜色 */
+}
+
+::-webkit-scrollbar-thumb {
+	/* 选择滚动条手柄 */
+	background: #888; /* 设置滚动条手柄的颜色 */
+}
+
+::-webkit-scrollbar-thumb:hover {
+	/* 鼠标悬停时选择滚动条手柄 */
+	background: #555; /* 设置鼠标悬停时滚动条手柄的颜色 */
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -176,7 +197,7 @@ input, select, textarea {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.5;
-		margin: 0 0 1rem 0;
+		margin: 0 0 0.5rem 0;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
 	}
@@ -1317,7 +1338,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				padding: 3rem 2rem;
+				padding: 1.5rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
 			}
