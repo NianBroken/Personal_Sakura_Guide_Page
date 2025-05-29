@@ -22,7 +22,7 @@
 
 - [dimension](https://html5up.net/dimension)
 
-- [fwxiaohan](fwxiaohan.github.io)
+- [fwxiaohan](https://fwxiaohan.github.io/)
 
 ## 最便宜的 VPN
 
