@@ -31,6 +31,13 @@
 ## 性价比最高的 ChatGPT 镜像站
 [Aizex 合租面板](https://aizex.klaio.top/)
 
+
 ## 其他
 
 欢迎提交 `Issues` 和 `Pull requests`
+
+## 广告
+
+<a href="https://dartnode.com" title="Powered by DartNode - Free VPS for Open Source">
+  <img src="https://dartnode.com/branding/DN-Open-Source-sm.png" alt="Powered by DartNode" style="width:10%;" />
+</a>
