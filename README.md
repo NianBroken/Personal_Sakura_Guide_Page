@@ -1,6 +1,6 @@
 # 个人樱花引导页
 
-![主界面](./assets/images/previews/homepage-preview.png)
+![主界面](./images/previews/homepage-preview.png)
 
 ## 预览
 
@@ -18,15 +18,24 @@
 
 `Copyright © 2022 NianBroken. All rights reserved.`
 
-本项目采用 [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) 许可证。你可以自由使用、修改和分享本项目代码，但必须保留原始版权和许可证信息。
+本项目采用 [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) 许可证。简而言之，你可以自由使用、修改和分享本项目的代码，但前提是在其衍生作品中必须保留原始许可证和版权信息，并且必须以相同的许可证发布所有修改过的代码。
 
 ## 特别感谢
 
 - [dimension](https://html5up.net/dimension)
+
 - [fwxiaohan](https://fwxiaohan.github.io/)
 
 ## 恰饭
 
-- [Great-Firewall](https://nianbroken.github.io/Great-Firewall/) 好用的 VPN
-- [Ciii](https://ciii.klaio.top/) Codex 中转
-- [Aizex](https://aizex.klaio.top/) ChatGPT 镜像站
+[Great-Firewall](https://nianbroken.github.io/Great-Firewall/) 好用的 VPN
+
+[Ciii](https://ciii.klaio.top/) Codex 中转
+
+[Aizex](https://aizex.klaio.top/) ChatGPT 镜像站
+
+以上绝对都是性价比最高的。
+
+## 其他
+
+欢迎提交 `Issues` 和 `Pull requests`
