@@ -1,0 +1,26 @@
+/*
+无脚本兜底样式。
+只负责解除预加载态，保证页面在禁用脚本时仍可直接显示。
+*/
+
+body.is-preload .hero {
+	filter: none;
+}
+
+.sakura-canvas {
+	display: none;
+}
+
+body.is-preload .hero__section {
+	opacity: 1;
+}
+
+body.is-preload .hero__content-inner {
+	max-height: none;
+	opacity: 1;
+	padding: 3rem 2rem;
+}
+
+body.is-preload .site-footer {
+	opacity: 1;
+}

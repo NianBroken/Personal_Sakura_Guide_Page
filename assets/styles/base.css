@@ -1,0 +1,271 @@
+/*
+基础样式。
+只负责变量、重置、排版和全局行为，不承载页面布局细节。
+*/
+
+:root {
+	--color-background: #1b1f22;
+	--color-border: #ffffff;
+	--color-border-active: rgba(255, 255, 255, 0.175);
+	--color-border-hover: rgba(255, 255, 255, 0.075);
+	--color-text: #ffffff;
+	--duration-fast: 0.2s;
+	--duration-intro: 0.75s;
+	--duration-section: 0.325s;
+	--font-family-base: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+	--font-family-fixed: "Courier New", monospace;
+	--font-letter-spacing: 0.2rem;
+	--font-letter-spacing-title: 0.5rem;
+	--font-weight-base: 300;
+	--font-weight-bold: 600;
+	--radius-base: 4px;
+	--space-section: 3.5rem;
+	--space-stack: 2rem;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 16pt;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	background: var(--color-background);
+	color: var(--color-text);
+	font-family: var(--font-family-base);
+	font-size: 1rem;
+	font-weight: var(--font-weight-base);
+	line-height: 1.65;
+	-webkit-text-size-adjust: none;
+}
+
+body.is-preload *,
+body.is-preload *::before,
+body.is-preload *::after {
+	animation: none !important;
+	transition: none !important;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+	content: "";
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+select,
+textarea,
+button {
+	color: inherit;
+	font: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	transition:
+		color var(--duration-fast) ease-in-out,
+		background-color var(--duration-fast) ease-in-out,
+		border-color var(--duration-fast) ease-in-out;
+}
+
+strong,
+b {
+	font-weight: var(--font-weight-bold);
+}
+
+em,
+i {
+	font-style: italic;
+}
+
+p {
+	margin: 0 0 var(--space-stack) 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--color-text);
+	font-weight: var(--font-weight-bold);
+	letter-spacing: var(--font-letter-spacing);
+	line-height: 1.5;
+	margin: 0 0 calc(var(--space-stack) * 0.25) 0;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 2.25rem;
+	letter-spacing: var(--font-letter-spacing-title);
+	line-height: 1.3;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+
+@media screen and (max-width: 1680px) {
+	html {
+		font-size: 12pt;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	html {
+		font-size: 11pt;
+	}
+
+	h1 {
+		font-size: 1.75rem;
+		line-height: 1.4;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	html,
+	body {
+		min-width: 320px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	html {
+		font-size: 10pt;
+	}
+}
