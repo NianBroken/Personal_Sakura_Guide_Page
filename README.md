@@ -6,31 +6,6 @@
 
 - [https://nianbroken.github.io/Personal_Sakura_Guide_Page/](https://nianbroken.github.io/Personal_Sakura_Guide_Page/)
 
-## 项目结构
-
-- `index.html`
-  页面骨架，只保留首屏结构、资源入口和语义化标记。
-
-- `assets/styles/`
-  页面样式目录。
-  `base.css` 负责全局变量、重置和基础排版。
-  `home.css` 负责首页布局和动效。
-  `noscript.css` 负责无脚本兜底显示。
-
-- `assets/scripts/app/`
-  页面启动逻辑目录。
-  `bootstrap.js` 负责年份更新、预加载状态切换和樱花初始化。
-
-- `assets/scripts/effects/sakura/`
-  樱花背景目录。
-  配置、数学工具、WebGL 工具、着色器源码和渲染器各自独立。
-
-- `assets/images/`
-  页面静态资源目录。
-  `branding/` 存放头像和站点图标。
-  `social/` 存放联系方式图标。
-  `previews/` 存放文档预览图。
-
 ## 声明
 
 有一部分人使用了我的开源代码搭建付费或商用网站，其中以售卖游戏外挂的站点居多。这些站点在用户付款后，往往会立即将用户拉黑并直接跑路。
