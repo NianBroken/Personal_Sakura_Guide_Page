@@ -4,7 +4,7 @@
 
 ## 预览
 
-- [https://nianbroken.github.io/Personal_Sakura_Guide_Page/](https://nianbroken.github.io/Personal_Sakura_Guide_Page/)
+[https://nianbroken.github.io/Personal_Sakura_Guide_Page/](https://nianbroken.github.io/Personal_Sakura_Guide_Page/)
 
 ## 声明
 
@@ -24,7 +24,7 @@
 
 - [dimension](https://html5up.net/dimension)
 
-- [fwxiaohan](https://fwxiaohan.github.io/)
+- [nrOwPL](https://codepen.io/FrankFitzGerald/pen/nrOwPL)
 
 ## 恰饭
 
